@@ -2,6 +2,8 @@ import dspy
 import os
 
 # --- Configure LLM ---
+# For openai models
+# lm = dspy.LM("openai/gpt-4o-mini")
 # Set up dspy to use OpenRouter.
 # It reads the API key from the OPENROUTER_API_KEY environment variable.
 llm = dspy.LM(
